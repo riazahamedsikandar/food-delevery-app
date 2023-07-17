@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# Swiggy - (Clone)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Swiggy is an Indian online food ordering and delivery platform. Founded in July 2014, Swiggy is based in Bangalore, and operates in 500 Indian cities, as of September 2021.
 
-## Available Scripts
+**Solo construct week Project executed in 7 days.**
 
-In the project directory, you can run:
+![Logo](https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Swiggy_logo.svg/1200px-Swiggy_logo.svg.png)
 
-### `npm start`
+## Demo 🎥
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Deployed Link:- [Enjoy the Experience](https://swiggy-foodlovers.netlify.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to get Started 🚀
 
-### `npm test`
+**There are two methods for getting started with this repo.**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Familiar with Git ?
 
-### `npm run build`
+```
+> git clone https://github.com/icyflame21/Swiggy_Clone.git
+> cd Swiggy_Clone
+> npm install
+> npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Not Familiar with Git ?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+download the .zip file. Extract the contents of the zip file, then open your terminal, change to the project directory, and:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+> cd Swiggy_Clone
+> npm install
+> npm start
+```
 
-### `npm run eject`
+## Tech Stack 💻
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React
+- Redux
+- Material UI
+- Font Awesome Icons
+- Styled Components
+- React-Map-Gl
+- uuid (v4)
+- Firebase (OTP Authentication)
+- RazorPay Integration
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features ✨
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- In Landing Page user can fetch its current location and search bar is enabled with debouncing effect.
+- Login / Register Page is enabled with conditional rendering , OTP authentication is implemented via Firebase.
+- User can sort according to its demand like according to cost, rating etc, and also select the food items from multiple filter section.
+- Address Drawer show current location of the user in a customized map implemented using React-Map-Gl.
+- For Payment , Razorpay gateway is been used.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Responsibilities 💪
 
-## Learn More
+- Creating Pixel Perfect pure css Animations without using css library, and pixel perfect layouts for every page.
+- All pages are conditionally controlled using State Hooks, Local Storage.
+- Optimization of all page layouts with its raw css files and its libraries, for the user to have a smoother UI.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Snap Shots 📷
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Landing Page**
 
-### Code Splitting
+![Logo](https://images2.imgbox.com/d6/35/dapHztFi_o.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Register / Log In Drawer controlled via Conditional Rendering**
 
-### Analyzing the Bundle Size
+![Logo](https://images2.imgbox.com/d3/7e/IRjy3CQ5_o.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Multi Filter Section Drawer**
 
-### Making a Progressive Web App
+![Logo](https://images2.imgbox.com/7f/9f/mz0doOdW_o.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Food Details Page**
 
-### Advanced Configuration
+![Logo](https://images2.imgbox.com/72/e5/bawhJbvf_o.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Payment Page**
 
-### Deployment
+![Logo](https://images2.imgbox.com/28/2c/NrF6G6p7_o.jpg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## References ⏩
 
-### `npm run build` fails to minify
+- Icons are used from material UI  
+   https://material-ui.com/components/material-icons/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Components are used from material UI  
+   https://mui.com/components/
+
+- Current Location status are fetched using OpenWeatherMap API
+  https://openweathermap.org/api
+
+- To have interactive and customised maps along with searching ability  
+   https://github.com/visgl/react-map-Gl
+
+# Security Policy 🛡️
+
+## Supported Versions
+
+Versions of this project which are currently being supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 5.1.x   | :white_check_mark: |
+| 5.0.x   | :x:                |
+| 4.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+## Creator 😇
+
+- 👤 [Biswaranjan](https://www.github.com/icyflame21)

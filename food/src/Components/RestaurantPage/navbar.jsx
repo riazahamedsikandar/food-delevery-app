@@ -50,12 +50,7 @@ export function Navbar() {
   useEffect(() => {
     let user = JSON.parse(localStorage.getItem("user_details"));
     let id = JSON.parse(localStorage.getItem("verificationId"));
-    if (
-      user.name == "" ||
-      user.email == "" ||
-      user.number == "" ||
-      id.verificationId == ""
-    ) {
+    if (user.name == "" || user.email == "" || user.number == "" || id.verificationId == "") {
       let temp = {
         name: name,
         email: email,
@@ -83,6 +78,7 @@ export function Navbar() {
       });
     setOtp(false);
     setisDraweropen(false);
+
   }
 
   function handleSubmit_Otp_login(e) {
