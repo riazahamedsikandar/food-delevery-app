@@ -4,13 +4,14 @@ import 'firebase/compat/firestore';
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAqlZDRhrDUGEhr36YgnTAkbm50XL5yZ8E",
-  authDomain: "swiggy-b87f6.firebaseapp.com",
-  projectId: "swiggy-b87f6",
-  storageBucket: "swiggy-b87f6.appspot.com",
-  messagingSenderId: "502614518036",
-  appId: "1:502614518036:web:8afeacda6f1584b52ffa01"
-}
+    apiKey: "AIzaSyAWV7SjnD52ImhXU8jX59KxJAu3YXqj0Yc",
+    authDomain: "food-delivery-47a01.firebaseapp.com",
+    projectId: "food-delivery-47a01",
+    storageBucket: "food-delivery-47a01.appspot.com",
+    messagingSenderId: "607483601576",
+    appId: "1:607483601576:web:6711b9f9ebd3adccea989d",
+    measurementId: "G-DWBZP1WTS8"
+};
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
